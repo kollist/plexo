@@ -37,7 +37,7 @@ Plexo splits each download across every network you select, so a second connecti
 
 ### Queue and downloads list
 
-- **Queue**: two downloads run at once by default, and you can set one to eight. The rest wait and start on their own when a slot opens.
+- **Queue**: downloads run one at a time by default, and you can set up to four at once. The rest wait and start on their own, in order, when a slot opens.
 - **Downloads list**: downloads are grouped as Downloading, Queued, Paused, Needs attention, and Finished, and finished downloads stay in the list after a restart
 - **Actions on several downloads at once**: select downloads to pause, resume, retry, cancel, remove them from the list, or move their files to Trash
 - **Links from the clipboard**: opening **New download** fills in a link you've copied

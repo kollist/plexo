@@ -211,6 +211,7 @@ test.describe('edge cases', () => {
     plexo,
     serve
   }) => {
+    await plexo.api.updateSettings({ downloadsAtOnce: 2 })
     const origins = await Promise.all([1, 2, 3].map((seed) => serve({ size: 4 * BLOCK, seed })))
     const held = origins.map((origin) => origin.hold(BLOCK))
     const ids: string[] = []
